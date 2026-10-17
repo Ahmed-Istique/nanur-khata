@@ -1,12 +1,13 @@
 # My Git Story: Nanu's Digital Recipe Book
 
 ## Chapter 1: The First Recipe
+### Task Overview
 Today, Nanu handed me her tearing, handwritten recipe book and told me winter is coming, so I needed to write down the *bhapa pitha* recipe first. To make sure no recipe is ever lost, I set up Git!
 
 * **Commands I ran:**
   ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "your.email@example.com"
+  git config --global user.name "Istique_Ahmed"
+  git config --global user.email "istiqueahmed.01@gmail.com"
   mkdir nanur-khata
   cd nanur-khata
   git init
@@ -18,6 +19,7 @@ What happened:I initialized our family's digital recipe repository and created t
 When I checked git diff and git diff --staged, I learned how Git tracks what's currently changed versus what has already been staged. After committing my changes, I accidentally staged a grocery list (bazar-list.txt), but successfully un-staged it using git reset without losing the file.
 
 ## Chapter 2: The Secret Spice
+### Task Overview
 Nanu has a strict rule: her secret spice blend (`secret-masala.txt`), along with random temporary notes (`*.tmp`) and draft folders, must never leak to GitHub or be tracked by Git, otherwise Chapter 2 fails!
 
 * **Commands I ran:**
@@ -32,7 +34,7 @@ Nanu has a strict rule: her secret spice blend (`secret-masala.txt`), along with
   git commit -m "Add .gitignore to keep secret masala and draft files private"
 
 
-  ## Chapter 5: Half-Cooked Halua and Time Travel
+## Chapter 5: Half-Cooked Halua and Time Travel
 
 ### Task Overview
 In this chapter, I handled an interruption during recipe writing by stashing unfinished work, fixing a missing ingredient in the biryani, organizing files with Git's move and remove commands, inspecting historical commits, and experimenting with destructive resets on an isolated test branch.
