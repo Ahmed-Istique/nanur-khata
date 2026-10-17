@@ -1,4 +1,4 @@
-# Kacchi Biryani Recipe
+# Kacchi Biryani
 
 ## Ingredients
 - 1 kg mutton
@@ -6,3 +6,4 @@
 - 1 cup mustard oil
 - 2 tbsp ginger paste
 - 4 pods cardamom
+
